@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto PIA - I.U. Pascual Bravo</title>
+    <!-- Link a Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/css-tia02-equipo_A.css" />
+  </head>
+  <body>
+    <!-- Barra de Navegacion -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Proyecto PIA</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Acerca del Proyecto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#multimedia">Multimedia</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section o Seccion Principal -->
+    <section class="hero-section bg-info text-white text-center py-5">
+      <div class="container">
+        <h1 class="display-4">Bienvenido al Proyecto PIA</h1>
+        <p class="lead">
+          Sistema de Información para el registro, control y consulta de los
+          PA/PIA de I.U. Pascual Bravo
+        </p>
+      </div>
+    </section>
+
+    <!-- Seccion de informacion -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Acerca del Proyecto</h2>
+        <p>
+          El Proyecto PIA es un prototipo de sistema de información diseñado
+          para facilitar el registro, control y consulta de los Proyectos
+          Académicos (PA) y Proyectos de Investigación Aplicada (PIA) en la
+          Institución Universitaria Pascual Bravo.
+        </p>
+      </div>
+    </section>
+
+    <!-- Seccion de multimedia -->
+    <section id="multimedia" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-4">Multimedia</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Marcador para la imagen -->
+            <div
+              class="image-placeholder bg-secondary text-white text-center p-5"
+            >
+              <p>Subir imagen aquí</p>
+              <!-- Reemplaza este div con la etiqueta <img> cuando subas la imagen -->
+              <!-- <img src="ruta/a/la/imagen.jpg" alt="Imagen del Proyecto" class="img-fluid"> -->
+            </div>
+          </div>
+          <div class="col-md-6">
+            <!-- Marcador para el video -->
+            <div
+              class="video-placeholder bg-secondary text-white text-center p-5"
+            >
+              <p>Subir video aquí</p>
+              <!-- Reemplaza este div con la etiqueta <video> cuando subas el video -->
+              <!-- <video controls class="img-fluid">
+                            <source src="ruta/al/video.mp4" type="video/mp4">
+                            Tu navegador no soporta el elemento de video.
+                        </video> -->
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-12 text-center">
+            <!-- Marcador para el audio -->
+            <div
+              class="audio-placeholder bg-secondary text-white text-center p-3"
+            >
+              <p>Subir audio aquí</p>
+              <!-- Reemplaza este div con la etiqueta <audio> cuando subas el audio -->
+              <!-- <audio controls>
+                            <source src="ruta/al/audio.mp3" type="audio/mpeg">
+                            Tu navegador no soporta el elemento de audio.
+                        </audio> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer o Pie de Pagina-->
+    <footer class="bg-dark text-white text-center py-3">
+      <p>&copy; 2025 I.U. Pascual Bravo. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Dependencias de JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="js/script-tia02-equipo_A.js"></script>
+  </body>
+</html>

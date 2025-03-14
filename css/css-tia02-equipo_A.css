@@ -1,0 +1,27 @@
+.hero-section {
+    background-color: #007bff;
+    padding: 100px 0;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+}
+
+#about {
+    background-color: #ffffff;
+    padding: 50px 0;
+}
+
+#multimedia {
+    padding: 50px 0;
+}
+
+footer {
+    background-color: #343a40;
+    padding: 20px 0;
+}
